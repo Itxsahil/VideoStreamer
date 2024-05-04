@@ -1,0 +1,14 @@
+-- make sure you have installed ffmpeg perfectly 
+-- after making a clone of it run the server using command "npm run start" 
+
+(for fronted i used video.js and here is the link for the site) -> "https://videojs.com/"
+
+for uploading a video u have to open opstman and creat a new http post requset -> "http://localhost:/uploads" and upload a video file 
+
+the server convertes the video in small chunks
+
+in return you will get a "sample.m3u8" link
+
+take that link and pass it in "./fronted/src/app.jsx" there you will find a variable called "videoLink" paste it there 
+
+-- run the react app by using the command "npm reu dev " and open it in your browser
